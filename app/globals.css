@@ -6,7 +6,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;
-    --foreground: #ededed;
+    --foreground: #1F2937;
   }
 }
 
@@ -19,6 +19,8 @@ body {
 body {
   color: var(--foreground);
   background: var(--background);
+  background-color: #FEFAE0; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to right, #FEFAE0 , white);
   font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
